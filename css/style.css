@@ -1,0 +1,13 @@
+body {font-family: Merriweather; margin: 0 auto; padding: 50px 0;}
+
+h1, h2, h3, h4, h5 {font-family: Helvetica;}
+
+h1 {font-size: 100px; font-family: Oswald;}
+
+.container {width: 800px; margin: 0 auto;}
+header {text-align: center;}
+
+.dictionary {}
+.how-to, .badge {width: 375px; float: left; margin: 40px 0;}
+
+.banner {z-index: 999; position: absolute; top: 0; right: 0;}
