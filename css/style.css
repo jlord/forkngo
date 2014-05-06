@@ -1,7 +1,7 @@
-body {font-family: Merriweather; margin: 0 auto; padding: 50px 0;}
+body {font-family: Raleway; margin: 0 auto; padding: 50px 0; color: #333;}
 
-h1, h2, h3, h4, h5 {font-family: Helvetica;}
-h1 {font-size: 100px; font-family: Oswald;}
+h1, h2, h3, h4, h5 {font-family: Raleway;}
+h1 {font-size: 100px; font-family: Ceviche One; font-weight: 100;}
 .ss {font-family: Merriweather Sans;}
 
 .banner {z-index: 999; position: absolute; top: 0; right: 0;}
@@ -11,7 +11,7 @@ header {text-align: center;}
 
 
 .dictionary {}
-.half {width: 50%; float: left; margin: 40px 0;}
+.half {width: auto; float: left; margin: 40px 0; position: relative;}
 .whole {width: 100%;}
 
 footer {padding: 30px 0; text-align: center;}
