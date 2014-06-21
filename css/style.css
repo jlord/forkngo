@@ -1,7 +1,7 @@
 body {font-family: Source Sans Pro; margin: 0 auto; padding: 50px 0 0; line-height: 1.5em; color: #444;}
 html, body {height: 100%;}
 
-h1, h2, h3, h4, h5 {font-family: Source Sans Pro; -webkit-transform: skew(-10deg, 0);}
+h1, h2, h3, h4, h5 {font-family: Source Sans Pro; -webkit-transform: skew(-10deg, 0);display: inline-block;}
 header h1 {font-size: 100px; font-family: Oswald; text-transform: uppercase; -webkit-transform: skew(-10deg, 0); }
 .ss {font-weight: bold;}
 code {font-family: 'Liberation Mono', 'Inconsolata', Monaco, courier, monospace;; border: 1px solid #eee; border-radius: 2px; white-space: nowrap; padding: 2px 4px; font-size: 12px;}
