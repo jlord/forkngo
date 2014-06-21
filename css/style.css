@@ -1,17 +1,44 @@
-body {font-family: Raleway; margin: 0 auto; padding: 50px 0; color: #333;}
+body {font-family: Source Sans Pro; margin: 0 auto; padding: 50px 0 0; line-height: 1.5em; color: #444;}
+html, body {height: 100%;}
 
-h1, h2, h3, h4, h5 {font-family: Raleway;}
-h1 {font-size: 100px; font-family: Ceviche One; font-weight: 100;}
-.ss {font-family: Merriweather Sans;}
+h1, h2, h3, h4, h5 {font-family: Source Sans Pro; -webkit-transform: skew(-10deg, 0);}
+header h1 {font-size: 100px; font-family: Oswald; text-transform: uppercase; -webkit-transform: skew(-10deg, 0); }
+.ss {font-weight: bold;}
+code {font-family: 'Liberation Mono', 'Inconsolata', Monaco, courier, monospace;; border: 1px solid #eee; border-radius: 2px; white-space: nowrap; padding: 2px 4px; font-size: 12px;}
+/*.banner {z-index: 999; position: absolute; top: 0; right: 0;}*/
+.banner {z-index: 999; position: absolute; top: 30px; left: 0;}
 
-.banner {z-index: 999; position: absolute; top: 0; right: 0;}
-
-.container {width: 800px; margin: 0 auto;}
+a {color: #23e88a;}
+a:hover {color: #eee;}
+.container {overflow: auto;}
 header {text-align: center;}
 
-
-.dictionary {}
-.half {width: auto; float: left; margin: 40px 0; position: relative;}
+p {font-family: Source Sans Pro;}
+.dictionary {font-family: Merriweather; font-weight: 200;}
+/*padding: 6px 12px; border: 1px solid #eee; border-radius: 2px; display: inline;*/
+#how, #examples {
+  padding: 2em 0;
+  text-align: center;
+  /*background-color: #f9f9f9;*/
+  }
+#examples {
+  background-color: #fafafa;
+}
+#examples .parts {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.thirds {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+  width: 280px;
+  margin: 40px;
+  }
 .whole {width: 100%;}
 
-footer {padding: 30px 0; text-align: center;}
+footer {padding: 30px 0; text-align: center; background-color: #23e88a; color: #fff; text-transform: uppercase; letter-spacing: .2em; font-size: 11px;}
+footer a {color: #fff; text-decoration: none;}
+footer a:hover {text-decoration: underline;}
