@@ -28,6 +28,11 @@ p {font-family: Source Sans Pro;}
   max-width: 1200px;
   margin: 0 auto;
 }
+
+#examples img {
+  width: 100%;
+}
+
 .thirds {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
