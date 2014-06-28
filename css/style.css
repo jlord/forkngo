@@ -1,8 +1,8 @@
 body {font-family: Source Sans Pro; margin: 0 auto; padding: 50px 0 0; line-height: 1.5em; color: #444;}
 html, body {height: 100%;}
 
-h1, h2, h3, h4, h5 {font-family: Source Sans Pro; -webkit-transform: skew(-10deg, 0);display: inline-block;}
-header h1 {font-size: 100px; font-family: Oswald; text-transform: uppercase; -webkit-transform: skew(-10deg, 0); }
+h1, h2, h3, h4, h5 {font-family: Lato; -webkit-transform: skew(-10deg, 0); display: inline-block;}
+header h1 {font-size: 100px; font-family: Source Sans Pro; text-transform: uppercase; -webkit-transform: skew(-10deg, 0); }
 .ss {font-weight: bold;}
 code {font-family: 'Liberation Mono', 'Inconsolata', Monaco, courier, monospace;; border: 1px solid #eee; border-radius: 2px; white-space: nowrap; padding: 2px 4px; font-size: 12px;}
 /*.banner {z-index: 999; position: absolute; top: 0; right: 0;}*/
@@ -16,6 +16,36 @@ header {text-align: center;}
 p {font-family: Source Sans Pro;}
 .dictionary {font-family: Merriweather; font-weight: 200;}
 /*padding: 6px 12px; border: 1px solid #eee; border-radius: 2px; display: inline;*/
+
+.button {
+  padding: 2px 0 2px 5px;
+  text-transform: uppercase;
+  background-color: #23e88a;
+  color: #fff;
+  height: 17px;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.button::after {
+  content: "";
+  position: relative;
+  left: 10px;
+  top: 17px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 19px 10px 0 0;
+  left: 10px;
+  border-color: #23e88a transparent transparent transparent;
+}
+
+a.button {color: #fff; text-decoration: none; -webkit-transform: skew(-10deg, 0);}
+a.button:hover { color: #eee; background-color: #ff00ff;}
+a.button:hover::after {border-color: #ff00ff transparent transparent transparent;}
+
+
+
 #how, #examples {
   padding: 2em 0;
   text-align: center;
