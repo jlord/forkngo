@@ -20,7 +20,7 @@ p {font-family: Source Sans Pro;}
 .button {
   padding: 2px 0 2px 5px;
   text-transform: uppercase;
-  background-color: #23e88a;
+  background-color: #0bf48a;
   color: #fff;
   height: 17px;
   font-size: 12px;
@@ -36,12 +36,38 @@ p {font-family: Source Sans Pro;}
   height: 0;
   border-style: solid;
   border-width: 19px 7px 0 0;
-  border-color: #23e88a transparent transparent transparent;
+  border-color: #0bf48a transparent transparent transparent;
 }
 
 a.button {color: #fff; text-decoration: none; -webkit-transform: skew(-10deg, 0);}
 a.button:hover { color: #eee; background-color: #B9B8B8;}
 a.button:hover::after {border-color: #B9B8B8 transparent transparent transparent;}
+
+.button-nested {
+  padding: 2px 0 2px 10px;
+  text-transform: uppercase;
+  background-color: #23e88a;
+  color: #fff;
+  height: 17px;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.button-nested::after {
+  content: "";
+  position: relative;
+  left: 7px;
+  top: 17px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 19px 7px 0 0;
+  border-color: #23e88a transparent transparent transparent;
+}
+
+a.button-nested {color: #fff; text-decoration: none; -webkit-transform: skew(-10deg, 0);}
+a.button-nested:hover { color: #eee; background-color: #B9B8B8;}
+a.button-nested:hover::after {border-color: #B9B8B8 transparent transparent transparent;}
 
 
 
