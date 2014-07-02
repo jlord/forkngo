@@ -9,7 +9,7 @@ code {font-family: 'Liberation Mono', 'Inconsolata', Monaco, courier, monospace;
 .banner {z-index: 999; position: absolute; top: 30px; left: 0;}
 
 a {color: #23e88a;}
-a:hover {color: #eee;}
+a:hover {color: #21ad67;}
 .container {overflow: auto;}
 header {text-align: center;}
 
@@ -40,8 +40,8 @@ p {font-family: Source Sans Pro;}
 }
 
 a.button {color: #fff; text-decoration: none; -webkit-transform: skew(-10deg, 0);}
-a.button:hover { color: #eee; background-color: #B9B8B8;}
-a.button:hover::after {border-color: #B9B8B8 transparent transparent transparent;}
+a.button:hover { color: #fff; background-color: #21ad67;}
+a.button:hover::after {border-color: #21ad67 transparent transparent transparent;}
 
 .button-nested {
   padding: 2px 0 2px 10px;
@@ -66,17 +66,17 @@ a.button:hover::after {border-color: #B9B8B8 transparent transparent transparent
 }
 
 a.button-nested {color: #fff; text-decoration: none; -webkit-transform: skew(-10deg, 0);}
-a.button-nested:hover { color: #eee; background-color: #B9B8B8;}
-a.button-nested:hover::after {border-color: #B9B8B8 transparent transparent transparent;}
+a.button-nested:hover { color: #fff; background-color: #21ad67;}
+a.button-nested:hover::after {border-color: #21ad67 transparent transparent transparent;}
 
 
 
-#how, #examples, #moreinfo {
+#how, #examples, #moreinfo, #contribute {
   padding: 2em 0;
   text-align: center;
   /*background-color: #f9f9f9;*/
   }
-#examples {
+#examples, #contribute {
   background-color: #fafafa;
 }
 #examples .parts {
