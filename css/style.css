@@ -13,6 +13,10 @@ a:hover {color: #21ad67;}
 .container {overflow: auto;}
 header {text-align: center;}
 
+.tac {
+  text-align: center !important;
+}
+
 p {font-family: Source Sans Pro;}
 .dictionary {font-family: Merriweather; font-weight: 200;}
 /*padding: 6px 12px; border: 1px solid #eee; border-radius: 2px; display: inline;*/
