@@ -10,11 +10,10 @@ Thanks for contributing or reading or opening this contributing doc! :)
  - It should look like the block below, just copy and paste this, change out the links and summary text and add it to `index.html` following the last `.examples .thirds` block in the `#examples` section.
 
 ```HTML
-<div id="spreadsheet-map" class="examples thirds">
-  <h2>Interactive locations from Spreadsheet</h2>
-  <img src="img/hackspots.png">
-  <p>Connects to a Google Spreadsheet with coffee shop locations and details. An interactive map and table for searching the spots using <a href="http://jlord.github.io/sheetsee.js" target="_blank">Sheetsee.js</a>.  — By <a href="http://twitter.com/jllord" target="_blank">@jllord</a>.</p><a class="button" href="http://www.github.com/jlord/hack-spots" target="_blank">GitHub Repository</a>
-  <a class="button-nested" href="http://jlord.github.com/hack-spots" target="_blank">Demo</a>
+<div id="map" class="examples thirds">
+  <h2>Fullscreen Map from Spreadsheet</h2>
+  <a href="http://jlord.github.io/mappy" target="_blank"><img src="img/fullscreen-map.png"></a>
+  <p>Takes a link to a Google Spreadsheet with coordinates and maps them fullscreen with <a href="http://jlord.github.io/sheetsee.js" target="_blank">Sheetsee.js</a> and <a href="https://www.mapbox.com/mapbox.js/api/v1.6.4/" target="_blank">Mapbox.js</a>.  — By <a href="http://twitter.com/jllord" target="_blank">@jllord</a>.</p><a class="button" href="http://www.github.com/jlord/mappy" >GitHub Repository</a><a class="button-nested" href="http://jlord.github.io/mappy" target="_blank">Demo</a>
 </div>
 ```
 
