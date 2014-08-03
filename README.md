@@ -2,7 +2,7 @@
 
 ![img](screenshot.png)
 
-A website listing and promoting fork-n-go style projects: [jlord.github.io/fork-n-go](http://jlord.github.io/fork-n-go).
+A website listing and promoting fork-n-go style projects: [jlord.github.io/forkngo](http://jlord.github.io/forkngo).
 
 ## Fork-n-Go
 
