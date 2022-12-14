@@ -16,4 +16,6 @@ public class Person
 		this.Age = Age;
 		this.Address = address;
 	}
+	
+	public override string ToString() => String.Join(' ', this.FirstName, this.LastName);
 }
