@@ -17,3 +17,5 @@ If you've got a Fork-n-Go style project, [add it to the site](https://github.com
 ---
 
 ### License: [BSD](license.md)
+### I am a junior developer
+### I am a hero
